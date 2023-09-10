@@ -17,16 +17,33 @@ h1 {
   margin: 30px;
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 5rem;
   color: #4ecca3;
 }
-h4 {
+.play-btn {
   margin: 30px;
   font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 2rem;
   color: #4ecca3;
+  background-color: #393e46;
+  border: 2px solid #4ecca3;
+  padding: 5px 20px;
+  box-shadow: 2px 2px #4ecca3;
+  border-radius: 5px;
 }
+
+.play-btn:hover {
+  box-shadow: 4px 4px white;
+  border-color: white;
+  color: white;
+}
+
+.play-btn:focus {
+  box-shadow: 2px 2px white;
+  transform: translate(3px, 3px);
+}
+
 p {
   font-size: 2rem;
   color: #4ecca3;
